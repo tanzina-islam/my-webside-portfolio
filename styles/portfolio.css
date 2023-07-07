@@ -1,0 +1,47 @@
+/*coomon shape styles*/
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 700;
+
+
+}
+/*nav related styles*/
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>ul
+{   
+    display: flex;
+    font-size:medium;
+    align-items: center;
+}
+
+nav li
+{
+    display:flex;
+    list-style: none;
+    
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color:rgb(27, 16, 16);
+}
+/*text color*/
+.text-primary
+{
+    color: brown;
+}
+/*btn related styles*/
+.btn-primary{
+    background:rgb(231, 229, 240);
+    border-radius: 5px;
+    border: 0px;
+    color: #460221ce;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 15px 30px;
+}
