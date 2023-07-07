@@ -11,6 +11,7 @@ nav
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 nav>ul
 {   
@@ -44,4 +45,21 @@ nav a{
     font-size: 17px;
     font-weight: 700;
     padding: 15px 30px;
+}/*header related styles*/
+.header{
+    background-color: rgb(228, 241, 241);
+    
+}
+/*banner styles*/
+.banner{
+padding: 30px 30px 30px 150px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+/*profile-pic styles*/
+.banner.profile-pic{
+
+    width: 500px;
 }
